@@ -11,6 +11,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 @EnableFeignClients
 @EnableAsync
 @EnableKafka
+@EnableCaching
 public class IbgewrapperApplication {
 
 	public static void main(String[] args) {
