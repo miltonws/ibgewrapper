@@ -4,8 +4,9 @@ import br.com.mws.kafkaline.ibgewrapper.gateway.feign.CidadeClient;
 import br.com.mws.kafkaline.ibgewrapper.gateway.json.CidadeJson;
 import feign.Feign;
 import feign.gson.GsonDecoder;
-import java.util.List;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class ConsultarCidadeService {

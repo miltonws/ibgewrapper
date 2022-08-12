@@ -4,8 +4,9 @@ import br.com.mws.kafkaline.ibgewrapper.gateway.feign.EstadoClient;
 import br.com.mws.kafkaline.ibgewrapper.gateway.json.EstadoJson;
 import feign.Feign;
 import feign.gson.GsonDecoder;
-import java.util.List;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class ConsultarEstadoService {
